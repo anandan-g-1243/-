@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">பஞ்சபட்சி</string>
+    <string name="title_activity_main">பஞ்சபட்சி</string>
+    <string name="package_name">com.panchapakshi.app</string>
+    <string name="custom_url_scheme">com.panchapakshi.app</string>
+</resources>

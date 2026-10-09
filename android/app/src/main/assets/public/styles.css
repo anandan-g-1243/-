@@ -1,0 +1,23 @@
+:root{--bg:#fbf7ef;--fg:#2b2118;--mut:#6f6254;--card:#fff;--bd:#e4d9c6;--ac:#9a3412;--gd:#166534;--gb:#dcfce7;--bd2:#7f1d1d;--bb:#fee2e2;--now:#fef3c7;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1b1611;--fg:#f1e8da;--mut:#b5a794;--card:#261f18;--bd:#43382b;--ac:#fb923c;--gd:#86efac;--gb:#14351f;--bd2:#fca5a5;--bb:#3f1b1b;--now:#4a3a12}}
+:root[data-theme="dark"]{--bg:#1b1611;--fg:#f1e8da;--mut:#b5a794;--card:#261f18;--bd:#43382b;--ac:#fb923c;--gd:#86efac;--gb:#14351f;--bd2:#fca5a5;--bb:#3f1b1b;--now:#4a3a12}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:"Noto Sans Tamil","Latha","Nirmala UI",system-ui,sans-serif;line-height:1.6}
+main{max-width:860px;margin:0 auto;padding:12px}
+h1{margin:6px 0 0;font-size:1.5rem;color:var(--ac)}h2{font-size:1.1rem;margin:16px 0 6px}
+.sub{color:var(--mut);font-size:.85rem;margin:0 0 8px}
+nav{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0}
+nav button,.btn{background:var(--card);color:var(--fg);border:1px solid var(--bd);border-radius:8px;padding:6px 12px;font:inherit;cursor:pointer}
+nav button.on{background:var(--ac);color:#fff;border-color:var(--ac)}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:10px 12px;margin:8px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px}
+.k{color:var(--mut);font-size:.78rem}.v{font-weight:600}
+.wrap{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.92rem}
+th,td{border-bottom:1px solid var(--bd);padding:6px 8px;text-align:left;white-space:nowrap}
+tr.now{background:var(--now)}b.g{color:var(--gd);background:var(--gb);padding:1px 8px;border-radius:6px}b.b{color:var(--bd2);background:var(--bb);padding:1px 8px;border-radius:6px}
+.warn{background:var(--bb);color:var(--bd2);border-radius:8px;padding:8px 10px;margin:8px 0}
+.info{background:var(--now);border-radius:8px;padding:8px 10px;margin:8px 0}
+input,select{font:inherit;background:var(--card);color:var(--fg);border:1px solid var(--bd);border-radius:6px;padding:4px 6px;max-width:100%}
+.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:6px 0}
+a{color:var(--ac)}li{margin:3px 0}.tiny{font-size:.8rem;color:var(--mut)}
+.chip{display:inline-block;margin:2px 4px 2px 0;padding:0 8px;border-radius:6px;background:var(--gb);color:var(--gd);font-size:.8rem}
